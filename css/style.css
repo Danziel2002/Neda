@@ -1,0 +1,23 @@
+*{
+	transition: all;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.instinct:hover{
+	z-index: 1;
+}
+
+.cage:hover{
+	z-index: 1;
+}
+
+.cage{
+	background-color: #313131;
+	background-color: rgba(0, 0, 0, 0.8);
+}
