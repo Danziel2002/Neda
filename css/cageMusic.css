@@ -1,0 +1,168 @@
+@font-face {
+  font-family: cage;
+  src: url(../Fonts/cage.ttf) format('truetype');
+}
+
+.songImage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+background-color: #333;
+	font-family: cage;
+}
+
+.all{
+display:flex;
+}
+
+
+
+.top .songData{
+height: 110px;
+margin: 0px;
+}
+
+#cage {
+	font-family: cage;
+}
+
+
+.top img{
+width: 500px;
+height: 500px;
+}
+.top{
+display: flex;
+background-color: #1c1c1c;
+flex-direction: column;
+}
+
+.songImage h1{
+width: 150px;
+text-align: center;
+}
+
+.title{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	background-color: #1c1c1c;
+	color: black;
+	width: 100%;
+	font-size: 150%;
+	position: relative;
+	bottom: 2px;
+}
+
+.youtube span{
+	font-size:60%;
+	background-color: #fafafa;
+	color: #ccc;
+	border: 1px solid #ccc;
+	position: relative;
+	height: 100%;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	padding: 3.5px;
+
+}
+
+.youtube{
+	display: flex;
+	justify-content: center;
+	width: 21%;
+	position: relative;
+}
+
+.youtube img{
+	height: 100%;
+}
+
+.youtube #YouTube a{
+	color: white;
+	text-decoration: none;
+}
+.navBar{
+	display: flex;
+}
+
+a, h3, h1{
+font-family: cage;
+text-decoration: none;
+color: white;
+ }
+
+
+.navBar a, .title h1{
+	color: white;
+	text-decoration: none;
+	padding: 1em;
+	font-size: 200%;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: cage;
+}
+.youtube #YouTube{
+	padding: 3px;
+	display: flex;
+	width: 80px;
+	background-color: #b31217;
+	border: 1px #b31217 solid;
+	border-radius: 2px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	color: white;	
+}header{
+	text-align: center;
+}
+
+body{
+overflow: hidden;
+padding: 0;
+	margin: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.song{
+
+	background-color: #333;
+	padding: 0.1em;
+	margin: 0.1em;
+	display: flex;
+	position: relative;
+	height: 200px;
+}
+
+.songData a{
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.songData{
+	background-color: #1c1c1c;
+	width: 500px;
+	margin-left: 20px;
+	border: 1px grey solid;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+.songs{
+	overflow-y: scroll;
+	flex-direction: column
+}
+
+#cage{
+	height: 620px;
+	font-family: cage;
+}
+
+#instinct h1,#instinct h3{
+	margin-left: 5px;
+}

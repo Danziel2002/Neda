@@ -1,7 +1,28 @@
 @font-face {
   font-family: Cage;
   src: url(../../Fonts/cage.ttf) format('truetype');
+}	
+@font-face {
+  font-family: Ins;
+  src: url(../../Fonts/Ins.ttf) format('truetype');
 }
+.navBar{
+	display: flex;
+	margin-top: -5%;
+}
+
+.navBar a{
+
+	text-decoration: none;
+	padding: 1em;
+	font-size: 250%;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: Ins;
+	color: white;
+	font-family: Cage;
+}
+
 
 body{
 	overflow-x: hidden;
@@ -33,7 +54,7 @@ body{
 	border-bottom-right-radius: 2px;
 	border-top-right-radius: 2px;
 	padding: 3.5px;
-
+	margin-bottom: 10px; 
 }
 
 .youtube{
@@ -41,8 +62,6 @@ body{
 	justify-content: center;
 	width: 21%;
 	position: relative;
-	margin-top: -2%;
-	margin-bottom: 2%;
 }
 
 .youtube img{
@@ -110,7 +129,8 @@ body{
 }
 
 .change a{
-
+	font-family: Ins;
+	font-size: 200%;
 	color: black;
 	text-decoration: none;
 }

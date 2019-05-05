@@ -1,0 +1,170 @@
+@font-face {
+  font-family: Ins;
+  src: url(../Fonts/Ins.ttf) format('truetype');
+}
+
+.songImage{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+background-color: #e7e7e7;
+	font-family: Ins;
+}
+
+.all{
+display:flex;
+}
+
+
+
+.top .songData{
+height: 110px;
+margin: 0px;
+}
+
+.Ins {
+	font-family: Ins;
+}
+
+
+.top img{
+width: 500px;
+height: 500px;
+}
+.top{
+display: flex;
+background-color: #fbeacf;
+flex-direction: column;
+}
+
+.songImage h1{
+width: 150px;
+text-align: center;
+}
+
+.title{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fbeacf;
+	color: black;
+	width: 100%;
+	font-size: 150%;
+	position: relative;
+	bottom: 2px;
+}
+
+.youtube span{
+	font-size:60%;
+	background-color: #fafafa;
+	color: #ccc;
+	border: 1px solid #ccc;
+	position: relative;
+	height: 100%;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	padding: 3.5px;
+
+}
+
+.youtube{
+	display: flex;
+	justify-content: center;
+	width: 21%;
+	position: relative;
+}
+
+.youtube img{
+	height: 100%;
+}
+
+.youtube #YouTube a{
+	color: white;
+	text-decoration: none;
+}
+.navBar{
+	display: flex;
+}
+
+h3, h1{ 
+color: #f25822;
+ }
+
+
+.navBar a, .title h1{
+
+	text-decoration: none;
+	padding: 1em;
+	font-size: 200%;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: Ins;
+	color: #f25822;
+}
+.youtube #YouTube{
+	padding: 3px;
+	display: flex;
+	width: 80px;
+	background-color: #b31217;
+	border: 1px #b31217 solid;
+	border-radius: 2px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	color: white;	
+}header{
+	text-align: center;
+}
+
+body{
+overflow: hidden;
+padding: 0;
+	margin: 0;
+	background: #f25822;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.song{
+
+	background-color: #fbeacf;
+	padding: 0.1em;
+	margin: 0.1em;
+	display: flex;
+	position: relative;
+	height: 200px;
+}
+
+.songData a{
+	color: grey;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.songData{
+	background-color: white;
+	width: 500px;
+	margin-left: 20px;
+	border: 1px grey solid;
+	color: grey;
+}
+
+img{
+	height: 200px;
+	width: 200px;
+}
+
+.songs{
+	overflow-y: scroll;
+	flex-direction: column
+}
+
+#instinct{
+	background-color:#f25822;
+	height: 620px;
+	font-family: Ins;
+}
+
+#instinct h1,#instinct h3{
+	margin-left: 5px;
+}
